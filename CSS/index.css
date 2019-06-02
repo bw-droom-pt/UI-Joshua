@@ -51,12 +51,12 @@ table {
 
 body {
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
 }
 
 .main-container {
   background-image: url('../images/Background_Home.png');
-  height: 125vh;
+  height: 165vh
   background-size: cover;
   background-position: center;
 }
@@ -117,3 +117,35 @@ margin-top: 20px;
   justify-content: space-around;
   margin-top: 60px;
 }
+
+/* Begin media queries*/
+
+/* Tablet view*/
+@media(max-width: 800px) {
+  .main-container {
+    width: 85%;
+  } 
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+/* Mobile view*/
+@media (max-width: 500px) {
+	.container {
+		width: 90%;
+  }
+  
+  .header-img {
+    display: none;
+  }
+
+  .call-to-action {
+    margin-top: 100px;
+  }
