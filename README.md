@@ -14,3 +14,6 @@ Droom means dream in Dutch. This app helps you find your dream job by swiping ri
 
 ## Target Audience
 Our primary focus is to turn the job market search on its head. The only differene that has sustained over time was the introduction of technology since originally finding jobs in our local papers. We want to eliminate the use of multiple locations and allow both the employers and user to only have to utilize one singular application. So with that said, our audience is YOU!
+
+## Extra tools used
+The UI was built in a third party design tool called Figma. All attached images/files were created in there from scratch and then imported to the IDE and manipulated.

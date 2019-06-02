@@ -99,11 +99,16 @@ color: white;
   margin-right: 25px;
 }
 
+.button-class {
+display: flex;
+justify-content: center;
+justify-items: center;
+}
+
 #primary {
 border-radius: 15px;
-margin-left: 475px;
 height: 50px;
-margin top: 20px;
+margin-top: 20px;
 }
 
 .code-language {
