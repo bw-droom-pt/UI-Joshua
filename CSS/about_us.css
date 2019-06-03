@@ -102,12 +102,19 @@ body {
 	justify-content: center;
 	justify-items: center;
 	font-size: 25px;
-	margin-bottom: 75px;
 }
 
 .creator-joshua img {
 	width: 85px;
 	height: 85px;
+}
+
+.icons {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	margin-right: 75px;
 }
 
 /* Begin media queries */
