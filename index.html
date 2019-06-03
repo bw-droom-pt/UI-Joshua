@@ -46,7 +46,8 @@
    
 
     <section class = 'middle-content'>
-    <h1>Why Droom?</h1>
+    <!--Created a DOM Manipulation event-->
+    <h1 onclick="this.innerHTML='More like why not droom?'">Why Droom?</h1>
         <div class = 'product-feat'>
             <h3>Account Priortization</h3>
             <p>Our dedicated team of developers created a way to where the user may flag, organize, and filter the companies of interest through our in house system.</p>
@@ -65,6 +66,14 @@
 
     <section class = 'button-class'>
         <button id = 'primary'>Try for Free</button>
+
+<!--Add an event listener-->
+        <script>
+                document.getElementsByClassName(".button-class").addEventListener("click", myFunction);
+                function myFunction(){
+                    alert ("Great choice!");
+                }
+            </script>
     </section>
 
     <section class = 'bottom-imgs'>
@@ -78,6 +87,20 @@
             <img src = 'images/Less_Logo.png'>
         </div>
     </section>
+
+<!--Add an on load function-->
+    <p class="onload"></p>
+    <script>
+        function checkCookies(){
+            var text = "";
+            if (navigator.cookieEnabled == true){
+                text = "Cookies are enabled.";
+            }   else {
+                text = "Cookies are not enabled.";
+            }
+            document.getElementsByClassName(".onload").innerHTML = text;
+        }
+    </script>
 </div>
 </body>
 </html>
