@@ -8,7 +8,8 @@
 
     <Title> Droom Job Search</Title>
 
-    <link href='https://fonts.googleapis.com/css?family=Titillium+web' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
     <link href='css/index.css' rel='stylesheet'>
 
     <!--[if lt IE 9]
@@ -66,14 +67,6 @@
 
     <section class = 'button-class'>
         <button id = 'primary'>Try for Free</button>
-
-<!--Add an event listener-->
-        <script>
-                document.getElementsByClassName(".button-class").addEventListener("click", myFunction);
-                function myFunction(){
-                    alert ("Great choice!");
-                }
-            </script>
     </section>
 
     <section class = 'bottom-imgs'>
@@ -87,20 +80,6 @@
             <img src = 'images/Less_Logo.png'>
         </div>
     </section>
-
-<!--Add an on load function-->
-    <p class="onload"></p>
-    <script>
-        function checkCookies(){
-            var text = "";
-            if (navigator.cookieEnabled == true){
-                text = "Cookies are enabled.";
-            }   else {
-                text = "Cookies are not enabled.";
-            }
-            document.getElementsByClassName(".onload").innerHTML = text;
-        }
-    </script>
 </div>
 </body>
 </html>
