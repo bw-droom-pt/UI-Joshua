@@ -117,11 +117,20 @@ body {
 	margin-right: 75px;
 }
 
+.footerContainer p {
+	display: flex;
+  justify-content: center;
+  justify-items: center;
+	color: white;
+	margin-top: 50px;
+	margin-right: 70px;
+}
 /* Begin media queries */
 
 @media(max-width: 800px) {
   .main-container {
-    width: 85%;
+		width: 85%;
+		height: 165vh;
   } 
   .navigation {
     display: flex;
@@ -131,13 +140,18 @@ body {
     align-content: center;
     align-items: center;
     width: 100%;
-  }
+	}
+	
+	.footerContainer p {
+	display: none;
+	}
 }
 
 /* Mobile view*/
 @media (max-width: 500px) {
-	.container {
+	.main-container {
 		width: 90%;
+		height: 150vh;
   }
   
   .header-img {

@@ -118,6 +118,13 @@ margin-top: 20px;
   margin-top: 60px;
 }
 
+.footerContainer p {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color: white;
+}
+
 /* Begin media queries*/
 
 /* Tablet view*/
